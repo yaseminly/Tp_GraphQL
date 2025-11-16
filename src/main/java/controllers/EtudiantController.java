@@ -1,15 +1,15 @@
 package controllers;
 
-import dto.EtudiantDTO;
-import model.Centre;
-import model.Etudiant;
+import org.example.tp_graphql.DTO.EtudiantDTO;
+import org.example.tpgraphql.model.Centre;
+import org.example.tpgraphql.model.Etudiant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.stereotype.Controller;
-import repositories.CentreRepository;
-import repositories.EtudiantRepository;
+import org.example.tpgraphql.repositories.CentreRepository;
+import org.example.Tp_GraphQL.repositories.EtudiantRepository;
 
 import java.util.List;
 
